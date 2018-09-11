@@ -1,9 +1,12 @@
+# include<stdio.h>
 int main()
 {
-  int i;
-  for (i = 0; i < 10; i++)
+  int c,n;
+  printf("32/n");
+  scanf("%d,&n);
+  for (c = 1; c < 32; c++)
   {
-    printf("Holberton\n");
+    printf("Hello Holberton\n");
   }
   return 0;
 }
